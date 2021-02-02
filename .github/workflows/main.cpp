@@ -16,6 +16,7 @@ Entity::Entity(const char *name="anon")
 {
     this->name = name;
     this->health = 10;
+    this->ShowHealth();
 }
 
 void Entity::ShowHealth(void)
