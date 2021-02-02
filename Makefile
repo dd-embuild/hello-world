@@ -1,3 +1,3 @@
 all:
-	g++ .github/workflows/main.cpp
+	g++ .github/workflows/main.cpp -o main
 
