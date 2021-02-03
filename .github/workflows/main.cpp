@@ -42,7 +42,7 @@ void Entity::AddHealth(int delta)
 
 int main(void)
 {
-    Entity joe("Joe");
-    //Entity joe;
+    //Entity joe("Joe");
+    Entity joe;
     std::cout << "Hello, world!\n";
 }
