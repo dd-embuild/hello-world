@@ -21,7 +21,7 @@ Entity::Entity(const char *name="anon")
 
 void Entity::ShowHealth(void)
 {
-    std::cout << this->name << "'s health is " << this->health << "\n";
+    std::cout << this->name << "'s health is " << this->health << std::endl;
 }
 
 void Entity::AdjustHealth(int delta)
@@ -42,6 +42,7 @@ void Entity::AddHealth(int delta)
 
 int main(void)
 {
-    Entity joe();
+    Entity joe("Joe");
+    //Entity joe;
     std::cout << "Hello, world!\n";
 }
